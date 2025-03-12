@@ -12,18 +12,14 @@
 - 每个学院都提供了下载链接，以各个学院的要求为准
 - 这个repo会根据反馈实时更新修正问题，可能与学院提供的模板有所不同
 - 如遇到问题，请在issue中提出，我们会尽快解决并更新在这个repo中
+- ！当前这个repo的模板与word版本的行距是对齐的。如果论文里的边距看起来过窄，请替换artratex.sty为当前repo里的版本。
 
 ### 2. 使用模板
-支持的系统：Windows, Linux, MacOS，同时支持Overleaf在线编辑器（推荐，无需安装配置环境）
+支持的系统：Windows, Linux, MacOS，同时支持Overleaf, OnlineLaTex(推荐，Overleaf限制了普通用户的编译时长，大概率无法完全编译成功，切换为OnlineLaTex可以）等在线LaTeX软件
 
-| 系统 | 编译工具 | 推荐编辑器 |
-| --- | --- | --- |
-| Windows | [TexLive Full](https://www.tug.org/texlive/acquire-netinstall.html) 或 [MiKTex](https://miktex.org/download) | [Texmaker](http://www.xm1math.net/texmaker/) 或 [VSCode](https://code.visualstudio.com/)
-| Linux | [TexLive Full](https://www.tug.org/texlive/acquire-netinstall.html) | [Texmaker](http://www.xm1math.net/texmaker/) 或 [VSCode](https://code.visualstudio.com/)
-| MacOS | [MacTex Full](https://www.tug.org/mactex/) | [Texmaker](http://www.xm1math.net/texmaker/) 或 [TexShop](http://pages.uoregon.edu/koch/texshop/)
-| Overleaf | XeLaTeX+TexLive2021 | [Overleaf](https://www.overleaf.com/)
+中文论文务必使用 XeLaTeX 
 
-Overleaf 的配置参考下图，选择 XeLaTeX 编译器，编译器版本选择 TeX Live 2021。
+Overleaf/OnlineLaTex 的配置参考下图，选择 XeLaTeX 编译器，编译器版本选择 TeX Live 2021。
 
 ![Overleaf配置](src/imgs/overleaf.png)
 
